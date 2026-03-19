@@ -6,7 +6,7 @@ def crea_griglia_nd(bounds, num_points=10):
     
     Parameters:
     bounds (N,2): list or numpy, bounds [min, max] for each dimension.
-    num_points (int): number of points per dimension (default 10).
+    num_points (1,1): number of points per dimension (default 10).
     
     Returns:
     X_grid (num_points^N, N): numpy array with all combinations, where each row is a point in the N-dimensional space.
