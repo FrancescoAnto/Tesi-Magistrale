@@ -5,7 +5,7 @@ def crea_griglia_nd(bounds, num_points=10):
     Creates an N-dimensional grid of points based on the provided bounds and number of points per dimension.
     
     Parameters:
-    bounds (N,2) : list or numpy, bounds [min, max] for each dimension.
+    bounds (N,2): list or numpy, bounds [min, max] for each dimension.
     num_points (int): number of points per dimension (default 10).
     
     Returns:
